@@ -1,5 +1,5 @@
 # twitter-bot
-A twitter bot that talks back to you when you tweet at @karmanishth with the substring #helloworld. 
+A twitter bot that talks back to you when you tweet at [@karmanishth](https://twitter.com/karmanishth) with the substring `#buzz`. 
 
 
 # Tech Stack 
@@ -8,11 +8,11 @@ A twitter bot that talks back to you when you tweet at @karmanishth with the sub
 4. Tweepy
 
 # How to setup the code ?
-1. Assuming you have pipenv installed, (if not, run command -- $pip install pipenv)
+1. Assuming you have pipenv installed, (if not, run command -- `$pip install pipenv`)
 2. cd inside the project directory
-3. Run command -- $pipenv install
-4. Now run the server by running command -- $python3 manage.py runserver
-3. If you login to your local server now, you should be able to see a message saying BOT ACTIVE. 
+3. Run command -- `$pipenv install`
+4. Now run the server by running command -- `$python3 manage.py runserver`
+3. If you login to your local server now, you should be able to see a message saying `BOT ACTIVE`. 
 
 # How the bot works ?
 1. Log in to your twitter account
