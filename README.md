@@ -23,7 +23,6 @@ ACCESS_SECRET = <>'
 
 If you need to replicate the environment with my keys, feel free to drop a pull request and I will be happy to connect with you over the same.
 
-
 # How the bot works ?
 1. Log in to your twitter account
 2. Write a tweet to @karmanishth, make sure you have the keyword #BUZZ (any case) in your tweet.
