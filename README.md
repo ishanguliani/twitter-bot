@@ -16,10 +16,10 @@ A twitter bot that talks back to you when you tweet at [@karmanishth](https://tw
 3. If you login to your local server now, you should be able to see a message saying `BOT ACTIVE`. 
 
 PLEASE NOTE: I have not committed the twitter_keys.py file to master due to security reasons. This file goes in the /twitter/ directory as twitter_keys.py and has the following attributes that I extracted from my twitter account. 
-'''CONSUMER_KEY = ''
-CONSUMER_SECRET = ''
-ACCESS_KEY = ''
-ACCESS_SECRET = '''''
+'CONSUMER_KEY = <>
+CONSUMER_SECRET = <>
+ACCESS_KEY = <>
+ACCESS_SECRET = <>'
 
 If you need to replicate the environment with my keys, feel free to drop a pull request and I will be happy to connect with you over the same.
 
