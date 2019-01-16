@@ -55,8 +55,8 @@ def reply_to_tweets():
         print(str(mention.id) + ' - ' + mention.full_text, flush=True)
         last_seen_id = mention.id
         store_last_seen_id(last_seen_id, FILE_NAME)
-        if '#helloworld' in mention.full_text.lower():
-            print('found #helloworld!', flush=True)
+        if '#buzz' in mention.full_text.lower():
+            print('found #buzz!', flush=True)
             print('responding back...', flush=True)
             message = '@' + mention.user.screen_name + ' back to you!'
             api.update_status(message, mention.id)
