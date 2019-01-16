@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+django = "==2.1"
+tweepy = {editable = true,git = "https://github.com/tweepy/tweepy.git",ref = "2efe385fc69385b57733f747ee62e6be12a1338b"}
+django-crispy-forms = "*"
+djangorestframework = "*"
+django-cors-headers = "*"
+
+[requires]
+python_version = "3.7"

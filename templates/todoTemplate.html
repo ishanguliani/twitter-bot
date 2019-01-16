@@ -1,0 +1,24 @@
+<h1>
+Hello this is My own Keep variant
+</h1>
+
+<ul>
+    {% for item in allItems %}
+    <li>
+        {{ item.content }}
+        <form action="/deleteTodo/{{item.id}}/"
+              method="post"
+              style="display: inline;"
+        >{% csrf_token %}
+            <input type="submit" value="Delete"/>
+        </form>
+    </li>
+    {% endfor %}
+</ul>
+
+<form action="/addTodo/" method="post">{% csrf_token %}
+    <input type="text" name="content"/>
+    <input type="submit" value="Add item"/>
+</form>
+
+
