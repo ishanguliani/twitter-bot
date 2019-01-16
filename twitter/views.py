@@ -10,7 +10,7 @@ import time
 # NOTE: I put my keys in the keys.py to separate them
 # from this main file.
 # Please refer to keys_format.py to see the format.
-from .keys import *
+from .twitter_keys import *
 
 # NOTE: flush=True is just for running this script
 # with PythonAnywhere's always-on task.
@@ -62,6 +62,6 @@ def reply_to_tweets():
             api.update_status(message, mention.id)
             print('tweet sent')
 
-# while True:
-#     reply_to_tweets()
-#     time.sleep(30)
+while True:
+    reply_to_tweets()
+    time.sleep(30)
